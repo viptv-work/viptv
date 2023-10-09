@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,Q as r}from"./chunks/framework.18efe07a.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"hao/vipa.md","filePath":"hao/vipa.md","lastUpdated":null}'),o={name:"hao/vipa.md"},n=r("",5),h=[n];function i(c,l,s,_,d,p){return e(),t("div",null,h)}const u=a(o,[["render",i]]);export{f as __pageData,u as default};
