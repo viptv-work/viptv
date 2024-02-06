@@ -24,7 +24,7 @@
 	});
   const src = 'https://cdntube2.b-cdn.net/mp4/83e322ec5b4ccf925201992ac1f4c406060a73ca.mp4'
 	const next = async () =>{
-		const result = await fetch('https://cdn.jsdelivr.net/gh/cnly1987/cdn@master/tiktok.json')
+		const result = await fetch('https://fastly.jsdelivr.net/gh/cnly1987/cdn@master/tiktok.json')
 		const json = await result.json()
 		vidRef.value.src=json[state.number++];
 		vidRef.value.play();
