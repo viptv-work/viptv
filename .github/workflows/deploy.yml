@@ -19,9 +19,8 @@ jobs:
         cache: "npm"
     - name:  Install and Build
       run: |   
-        npm install yarn -g 
-        yarn install
-        yarn build 
+        npm install  
+        npm build 
     
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
