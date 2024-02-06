@@ -1,0 +1,32 @@
+name: Build and Deploy
+on:  
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0,8 * * *'
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4   
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: "npm"
+    - name:  Install and Build
+      run: |   
+        npm install yarn -g 
+        yarn install
+        yarn build 
+        yarn run dist
+    
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./.vitepress/dist
+   
