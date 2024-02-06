@@ -142,10 +142,9 @@ import {
   watchEffect,
   withDirectives
 } from "./chunk-OX6HOUGK.js";
-import "./chunk-76J2PTFD.js";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VApp/VApp.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VApp/VApp.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VApp/VApp.css";
 var makeVAppProps = propsFactory({
   ...makeComponentProps(),
   ...makeLayoutProps({
@@ -189,10 +188,10 @@ var VApp = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VAppBar/VAppBar.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VAppBar/VAppBar.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VAppBar/VAppBar.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VToolbar/VToolbar.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VToolbar/VToolbar.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VToolbar/VToolbar.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/composables/tag.mjs
 var makeTagProps = propsFactory({
@@ -594,10 +593,10 @@ var VDefaultsProvider = genericComponent(false)({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VImg/VImg.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VImg/VImg.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VImg/VImg.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VResponsive/VResponsive.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VResponsive/VResponsive.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VResponsive/VResponsive.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/composables/dimensions.mjs
 var makeDimensionProps = propsFactory({
@@ -1514,13 +1513,13 @@ var VAppBar = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBtn/VBtn.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBtn/VBtn.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBtn/VBtn.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBtnToggle/VBtnToggle.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBtnToggle/VBtnToggle.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBtnToggle/VBtnToggle.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/composables/density.mjs
 var allowedDensities2 = [null, "default", "comfortable", "compact"];
@@ -1887,7 +1886,7 @@ var VBtnToggle = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VIcon/VIcon.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VIcon/VIcon.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VIcon/VIcon.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/composables/size.mjs
 var predefinedSizes = ["x-small", "small", "default", "large", "x-large"];
@@ -1982,7 +1981,7 @@ var VIcon = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/composables/intersectionObserver.mjs
 function useIntersectionObserver(callback, options) {
@@ -2131,7 +2130,7 @@ var VProgressCircular = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/composables/location.mjs
 var oppositeMap = {
@@ -2507,7 +2506,7 @@ function useSelectLink(link, select) {
 }
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/directives/ripple/index.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/directives/ripple/VRipple.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/directives/ripple/VRipple.css";
 var stopSymbol = Symbol("rippleStop");
 var DELAY_RIPPLE = 80;
 function transform(el, value) {
@@ -3040,7 +3039,7 @@ var VAppBarTitle = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VAlert/VAlert.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VAlert/VAlert.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VAlert/VAlert.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VAlert/VAlertTitle.mjs
 var VAlertTitle = createSimpleFunctional("v-alert-title");
@@ -3238,16 +3237,16 @@ var VAlert = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCheckbox/VCheckbox.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCheckbox/VCheckbox.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCheckbox/VCheckbox.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VLabel/VLabel.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VLabel/VLabel.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VLabel/VLabel.css";
 var makeVLabelProps = propsFactory({
   text: String,
   clickable: Boolean,
@@ -3275,7 +3274,7 @@ var VLabel = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.css";
 var VSelectionControlGroupSymbol = Symbol.for("vuetify:selection-control-group");
 var makeSelectionControlGroupProps = propsFactory({
   color: String,
@@ -3616,7 +3615,7 @@ var VCheckboxBtn = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VInput/VInput.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VInput/VInput.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VInput/VInput.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VInput/InputIcon.mjs
 function useInputIcon(props) {
@@ -3648,7 +3647,7 @@ function useInputIcon(props) {
 }
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VMessages/VMessages.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VMessages/VMessages.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VMessages/VMessages.css";
 var makeVMessagesProps = propsFactory({
   active: Boolean,
   color: String,
@@ -4213,10 +4212,10 @@ var VCheckbox = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VChip/VChip.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VChip/VChip.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VChip/VChip.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VAvatar/VAvatar.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VAvatar/VAvatar.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VAvatar/VAvatar.css";
 var makeVAvatarProps = propsFactory({
   start: Boolean,
   end: Boolean,
@@ -4282,7 +4281,7 @@ var VAvatar = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VChipGroup/VChipGroup.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VChipGroup/VChipGroup.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VChipGroup/VChipGroup.css";
 var VChipGroupSymbol = Symbol.for("vuetify:v-chip-group");
 var makeVChipGroupProps = propsFactory({
   column: Boolean,
@@ -4600,7 +4599,7 @@ var VChip = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VList/VList.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VList/VList.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VList/VList.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VList/list.mjs
 var DepthKey = Symbol.for("vuetify:depth");
@@ -5185,7 +5184,7 @@ var VListGroup = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VList/VListItem.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VList/VListItem.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VList/VListItem.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VList/VListItemSubtitle.mjs
 var VListItemSubtitle = createSimpleFunctional("v-list-item-subtitle");
@@ -5502,7 +5501,7 @@ var VListSubheader = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VDivider/VDivider.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VDivider/VDivider.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VDivider/VDivider.css";
 var makeVDividerProps = propsFactory({
   color: String,
   inset: Boolean,
@@ -5979,10 +5978,10 @@ var VListItemMedia = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VMenu/VMenu.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VMenu/VMenu.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VMenu/VMenu.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VOverlay/VOverlay.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VOverlay/VOverlay.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VOverlay/util/point.mjs
 function elementToViewport(point, offset) {
@@ -7512,13 +7511,13 @@ var VMenu = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSelect/VSelect.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSelect/VSelect.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSelect/VSelect.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTextField/VTextField.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTextField/VTextField.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTextField/VTextField.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCounter/VCounter.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCounter/VCounter.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCounter/VCounter.css";
 var makeVCounterProps = propsFactory({
   active: Boolean,
   max: [Number, String],
@@ -7561,7 +7560,7 @@ var VCounter = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VField/VField.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VField/VField.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VField/VField.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VField/VFieldLabel.mjs
 var makeVFieldLabelProps = propsFactory({
@@ -8069,7 +8068,7 @@ var VTextField = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VVirtualScroll/VVirtualScroll.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VVirtualScroll/VVirtualScroll.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VVirtualScroll/VVirtualScroll.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VVirtualScroll/VVirtualScrollItem.mjs
 var makeVVirtualScrollItemProps = propsFactory({
@@ -9320,7 +9319,7 @@ var VAutocomplete = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBadge/VBadge.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBadge/VBadge.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBadge/VBadge.css";
 var makeVBadgeProps = propsFactory({
   bordered: Boolean,
   color: String,
@@ -9423,7 +9422,7 @@ var VBadge = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBanner/VBanner.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBanner/VBanner.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBanner/VBanner.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBanner/VBannerActions.mjs
 var makeVBannerActionsProps = propsFactory({
@@ -9575,7 +9574,7 @@ var VBanner = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.css";
 var makeVBottomNavigationProps = propsFactory({
   bgColor: String,
   color: String,
@@ -9687,7 +9686,7 @@ var VBottomNavigation = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbsDivider.mjs
 var makeVBreadcrumbsDividerProps = propsFactory({
@@ -9889,7 +9888,7 @@ var VBreadcrumbs = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCard/VCard.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCard/VCard.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCard/VCard.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCard/VCardActions.mjs
 var VCardActions = genericComponent()({
@@ -10172,10 +10171,10 @@ var VCard = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCarousel/VCarousel.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCarousel/VCarousel.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCarousel/VCarousel.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VWindow/VWindow.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VWindow/VWindow.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VWindow/VWindow.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/directives/touch/index.mjs
 var handleGesture = (wrapper) => {
@@ -10726,14 +10725,14 @@ var VCarouselItem = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCode/index.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCode/VCode.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCode/VCode.css";
 var VCode = createSimpleFunctional("v-code");
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPicker.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPicker.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPicker.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPickerCanvas.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPickerCanvas.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPickerCanvas.css";
 var makeVColorPickerCanvasProps = propsFactory({
   color: {
     type: Object
@@ -10924,7 +10923,7 @@ var VColorPickerCanvas = defineComponent({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPickerEdit.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPickerEdit.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPickerEdit.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/util/index.mjs
 function stripAlpha(color, stripAlpha2) {
@@ -11189,13 +11188,13 @@ var VColorPickerEdit = defineComponent({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPickerPreview.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPickerPreview.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPickerPreview.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlider/VSlider.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlider/VSlider.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlider/VSlider.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlider/VSliderThumb.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlider/VSliderThumb.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlider/VSliderThumb.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlider/slider.mjs
 var VSliderSymbol = Symbol.for("vuetify:v-slider");
@@ -11650,7 +11649,7 @@ var VSliderThumb = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlider/VSliderTrack.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlider/VSliderTrack.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlider/VSliderTrack.css";
 var makeVSliderTrackProps = propsFactory({
   start: {
     type: Number,
@@ -11983,7 +11982,7 @@ var VColorPickerPreview = defineComponent({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPickerSwatches.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPickerSwatches.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VColorPicker/VColorPickerSwatches.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/util/colors.mjs
 var red = Object.freeze({
@@ -12362,7 +12361,7 @@ var VColorPickerSwatches = defineComponent({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSheet/VSheet.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSheet/VSheet.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSheet/VSheet.css";
 var makeVSheetProps = propsFactory({
   color: String,
   ...makeBorderProps(),
@@ -12559,7 +12558,7 @@ var VColorPicker = defineComponent({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCombobox/VCombobox.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCombobox/VCombobox.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VCombobox/VCombobox.css";
 function highlightResult2(text, matches, length) {
   if (matches == null)
     return text;
@@ -13052,7 +13051,7 @@ var VCombobox = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VDialog/VDialog.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VDialog/VDialog.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VDialog/VDialog.css";
 var makeVDialogProps = propsFactory({
   fullscreen: Boolean,
   retainFocus: {
@@ -13165,7 +13164,7 @@ var VDialog = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanels.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.css";
 var VExpansionPanelSymbol = Symbol.for("vuetify:v-expansion-panel");
 var allowedVariants3 = ["default", "accordion", "inset", "popout"];
 var makeVExpansionPanelsProps = propsFactory({
@@ -13407,7 +13406,7 @@ var VExpansionPanel = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VFileInput/VFileInput.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VFileInput/VFileInput.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VFileInput/VFileInput.css";
 var makeVFileInputProps = propsFactory({
   chips: Boolean,
   counter: Boolean,
@@ -13634,7 +13633,7 @@ var VFileInput = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VFooter/VFooter.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VFooter/VFooter.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VFooter/VFooter.css";
 var makeVFooterProps = propsFactory({
   app: Boolean,
   color: String,
@@ -13765,7 +13764,7 @@ var VForm = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VGrid/VContainer.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VGrid/VGrid.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VGrid/VGrid.css";
 var makeVContainerProps = propsFactory({
   fluid: {
     type: Boolean,
@@ -13795,7 +13794,7 @@ var VContainer = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VGrid/VCol.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VGrid/VGrid.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VGrid/VGrid.css";
 var breakpointProps = (() => {
   return breakpoints.reduce((props, val) => {
     props[val] = {
@@ -13913,7 +13912,7 @@ var VCol = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VGrid/VRow.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VGrid/VGrid.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VGrid/VGrid.css";
 var ALIGNMENT = ["start", "end", "center"];
 var SPACE = ["space-between", "space-around", "space-evenly"];
 function makeRowProps(prefix, def) {
@@ -14068,7 +14067,7 @@ var VHover = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VItemGroup/VItemGroup.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VItemGroup/VItemGroup.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VItemGroup/VItemGroup.css";
 var VItemGroupSymbol = Symbol.for("vuetify:v-item-group");
 var makeVItemGroupProps = propsFactory({
   ...makeComponentProps(),
@@ -14150,11 +14149,11 @@ var VItem = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VKbd/index.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VKbd/VKbd.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VKbd/VKbd.css";
 var VKbd = createSimpleFunctional("v-kbd");
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VLayout/VLayout.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VLayout/VLayout.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VLayout/VLayout.css";
 var makeVLayoutProps = propsFactory({
   ...makeComponentProps(),
   ...makeLayoutProps()
@@ -14189,7 +14188,7 @@ var VLayout = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VLayout/VLayoutItem.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VLayout/VLayoutItem.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VLayout/VLayoutItem.css";
 var makeVLayoutItemProps = propsFactory({
   position: {
     type: String,
@@ -14295,7 +14294,7 @@ var VLazy = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VLocaleProvider/VLocaleProvider.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VLocaleProvider/VLocaleProvider.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VLocaleProvider/VLocaleProvider.css";
 var makeVLocaleProviderProps = propsFactory({
   locale: String,
   fallbackLocale: String,
@@ -14328,7 +14327,7 @@ var VLocaleProvider = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VMain/VMain.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VMain/VMain.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VMain/VMain.css";
 var makeVMainProps = propsFactory({
   scrollable: Boolean,
   ...makeComponentProps(),
@@ -14367,7 +14366,7 @@ var VMain = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VNavigationDrawer/sticky.mjs
 function useSticky(_ref) {
@@ -14902,7 +14901,7 @@ var VNoSsr = defineComponent({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VPagination/VPagination.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VPagination/VPagination.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VPagination/VPagination.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/composables/refs.mjs
 function useRefs() {
@@ -15242,7 +15241,7 @@ var VPagination = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VParallax/VParallax.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VParallax/VParallax.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VParallax/VParallax.css";
 function floor(val) {
   return Math.floor(Math.abs(val)) * Math.sign(val);
 }
@@ -15358,7 +15357,7 @@ var VRadio = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.css";
 var makeVRadioGroupProps = propsFactory({
   height: {
     type: [Number, String],
@@ -15447,7 +15446,7 @@ var VRadioGroup = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VRangeSlider/VRangeSlider.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlider/VSlider.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlider/VSlider.css";
 var makeVRangeSliderProps = propsFactory({
   ...makeFocusProps(),
   ...makeVInputProps(),
@@ -15655,7 +15654,7 @@ var VRangeSlider = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VRating/VRating.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VRating/VRating.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VRating/VRating.css";
 var makeVRatingProps = propsFactory({
   name: String,
   itemAriaLabel: {
@@ -15859,7 +15858,7 @@ var VRating = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSlideGroup/helpers.mjs
 function bias(val) {
@@ -16243,7 +16242,7 @@ var VSlideGroupItem = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSnackbar/VSnackbar.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSnackbar/VSnackbar.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSnackbar/VSnackbar.css";
 var makeVSnackbarProps = propsFactory({
   multiLine: Boolean,
   timeout: {
@@ -16362,7 +16361,7 @@ var VSnackbar = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSwitch/VSwitch.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSwitch/VSwitch.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSwitch/VSwitch.css";
 var makeVSwitchProps = propsFactory({
   indeterminate: Boolean,
   inset: Boolean,
@@ -16506,7 +16505,7 @@ var VSwitch = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSystemBar/VSystemBar.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSystemBar/VSystemBar.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VSystemBar/VSystemBar.css";
 var makeVSystemBarProps = propsFactory({
   color: String,
   height: [Number, String],
@@ -16564,10 +16563,10 @@ var VSystemBar = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTabs/VTabs.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTabs/VTabs.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTabs/VTabs.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTabs/VTab.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTabs/VTab.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTabs/VTab.css";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTabs/shared.mjs
 var VTabsSymbol = Symbol.for("vuetify:v-tabs");
@@ -16762,7 +16761,7 @@ var VTabs = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTable/VTable.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTable/VTable.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTable/VTable.css";
 var makeVTableProps = propsFactory({
   fixedHeader: Boolean,
   fixedFooter: Boolean,
@@ -16812,8 +16811,8 @@ var VTable = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTextarea/VTextarea.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTextarea/VTextarea.css";
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTextField/VTextField.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTextarea/VTextarea.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTextField/VTextField.css";
 var makeVTextareaProps = propsFactory({
   autoGrow: Boolean,
   autofocus: Boolean,
@@ -17069,7 +17068,7 @@ var VTextarea = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VThemeProvider/VThemeProvider.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VThemeProvider/VThemeProvider.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VThemeProvider/VThemeProvider.css";
 var makeVThemeProviderProps = propsFactory({
   withBackground: Boolean,
   ...makeComponentProps(),
@@ -17104,7 +17103,7 @@ var VThemeProvider = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTimeline/VTimeline.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTimeline/VTimeline.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTimeline/VTimeline.css";
 var makeVTimelineProps = propsFactory({
   align: {
     type: String,
@@ -17379,7 +17378,7 @@ var VToolbarItems = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTooltip/VTooltip.mjs
-import "D:/Administrator/Desktop/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTooltip/VTooltip.css";
+import "D:/Administrator/Documents/GitHub/docs-viptv/node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/components/VTooltip/VTooltip.css";
 var makeVTooltipProps = propsFactory({
   id: String,
   text: String,

@@ -26,7 +26,6 @@ import {
   nextTick,
   reactive
 } from "./chunk-OX6HOUGK.js";
-import "./chunk-76J2PTFD.js";
 
 // node_modules/.pnpm/vuetify@3.3.17_vue@3.3.4/node_modules/vuetify/lib/labs/date/adapters/vuetify.mjs
 var firstDay = {

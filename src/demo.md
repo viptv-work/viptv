@@ -1,3 +1,6 @@
+---
+layout: page
+---
 <v-carousel cycle height="400" hide-delimiter-background show-arrows="hover">
 	<v-carousel-item v-for="(slide, i) in slides" :key="i">
 		<v-sheet :color="colors[i]" height="100%">
@@ -106,7 +109,8 @@
 	</v-window>
 </v-card>
 
-VAudioPlayer: () => import("@woodydark/vuetify-audio-player"),
+
+
 <v-btn color="indigo">Here is a button!</v-btn>
 ::: tip
 This is a tip
@@ -120,23 +124,6 @@ This is a warning
 This is a dangerous warning
 :::
 
-```html
-<ul>
-  <li v-for="todo in todos" :key="todo.id">{{ todo.text }}</li>
-</ul>
-```
 
-```js{4}
-export default {
-data () {
-return {
-msg: 'Highlighted!'
-}
-}
-}
-```
 
-::: v-pre
-`{{ This will be displayed as-is }}`
-:::
 <component> <span v-for="i in 3">{{ i }} </span> </component>
