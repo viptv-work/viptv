@@ -6,4 +6,6 @@ node_modules/
 .deploy*/
 package-lock.json
 yarn.lock
+.vitepress/dist
 *.local
+.vitepress/cache
