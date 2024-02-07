@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.QFmjjZgg.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vodtv/tampermonkey.md","filePath":"vodtv/tampermonkey.md","lastUpdated":null}'),o={name:"vodtv/tampermonkey.md"};function r(n,m,s,p,c,d){return a(),t("div")}const l=e(o,[["render",r]]);export{i as __pageData,l as default};

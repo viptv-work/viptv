@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.QFmjjZgg.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"api/bing.md","filePath":"api/bing.md","lastUpdated":null}'),n={name:"api/bing.md"};function r(i,o,s,c,p,d){return a(),t("div")}const m=e(n,[["render",r]]);export{l as __pageData,m as default};
