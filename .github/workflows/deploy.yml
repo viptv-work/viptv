@@ -25,12 +25,25 @@ jobs:
 
     - name:  Install and Build
       run: |   
+<<<<<<< HEAD
         pnpm install
         pnpm build
+=======
+        npm install yarn -g 
+        yarn install
+        yarn build 
+>>>>>>> f4e8ce6367fd46cabe567e516fd3ec24781f5729
     
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         publish_dir: .vitepress/dist
+<<<<<<< HEAD
         github_token: ${{ secrets.DEPLOY_SECRET }} 
         
+=======
+        github_token: ${{ secrets.DEPLOY_SECRET }} # secret 名
+        user_name: ${{ secrets.MY_USER_NAME }}
+        user_email: ${{ secrets.MY_USER_EMAIL }}
+        commit_message: 自动部署 
+>>>>>>> f4e8ce6367fd46cabe567e516fd3ec24781f5729
