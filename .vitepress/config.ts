@@ -6,7 +6,7 @@ export default defineConfig({
   title: "VIPTV - 网络电视工具链",
   description: "简单, 强大, 快速, 无广告, VIPTV是高质量IPTV服务",
   lang: "zh-CN",
-  base: "/docs/",
+  base: "",
 
   lastUpdated: true,
   cleanUrls: true,
