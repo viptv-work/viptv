@@ -1,9 +1,8 @@
 import { defineConfig } from 'vitepress'
-import timeline from "vitepress-markdown-timeline";
 import { head, nav, sidebar, socialLinks, search } from "./configs";
 import { buildEnd } from './buildEnd.config'
 const ogUrl = !!process.env.ogUrl ? process.env.ogUrl : `https://vodtv.cn` || `https://viptv.work`
-const commitRef = process.env.COMMIT_REF?.slice(0, 8) || `2019-${new Date().getFullYear()} `
+const commitRef = process.env.COMMIT_REF?.slice(0, 8) || `2019-${new Date().getFullYear()}`
 export const github = 'https://github.com/hefung'
 export default defineConfig({
 
@@ -64,11 +63,6 @@ export default defineConfig({
   markdown: {
     //行号显示
     lineNumbers: true,
-
-    //时间线 
-    config: (md) => {
-      md.use(timeline);
-    },
 
     // 开启图片懒加载
     image: {
