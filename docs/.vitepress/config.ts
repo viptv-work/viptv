@@ -56,7 +56,7 @@ export default defineConfig({
       next: '下一页'
     },
   },
-  outDir: 'dist',
+  outDir: '../dist',
   cleanUrls: true,
   lastUpdated: true,
   metaChunk: true,
