@@ -1,9 +1,10 @@
 .DS_Store
 Thumbs.db
 db.json
+.vscode
 *.log
 node_modules/
 .deploy*/
-.vitepress/dist
+dist
 *.local
-.vitepress/cache
+docs/.vitepress/cache
