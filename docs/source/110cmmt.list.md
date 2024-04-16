@@ -2,7 +2,7 @@
 
 ## 频道详情
 
-> M3U: [110cmmt.m3u](/110cmmt.m3u), TXT: [110cmmt.txt](/txt/110cmmt.txt)
+> M3U: [110cmmt.m3u](//iptv.vodtv.cn/110cmmt.m3u), TXT: [110cmmt.txt](//iptv.vodtv.cn/txt/110cmmt.txt)
 
 | No. | Channel Name | From      | Source                                           |
 | --- | ------------ | --------- | ------------------------------------------------ |
