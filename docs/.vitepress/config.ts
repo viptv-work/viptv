@@ -12,26 +12,19 @@ export default defineConfig({
   head,
 
   locales: {
-    root: { label: '简体中文' },
-    web: { label: '主站', link: 'https://viptv.work' },
-    cdn: { label: '镜像', link: 'https://vodtv.cn' },
-
+    root: { label: '简体中文' }
   },
 
   themeConfig: {
     logo: '/logo.svg',
     nav,
     sidebar,
-    editLink: {
-      pattern: "https://github.com/viptvx/viptv.work/edit/main/:path",
-      text: "在 GitHub 上编辑此页面",
-    },
     socialLinks,
 
     footer: {
-      message: `用心去做高质量的网站，欢迎 <a target="_blank" style="color: var(--vp-c-brand)" href="${github}">star ⭐</a> 让更多人发现`,
+      message: `Released under the MIT License. (dev)`,
 
-      copyright: `版权所有 © ${commitRef} <a target="_blank" href="${github}">HE FUNG</a> Contributors`,
+      copyright: `本站版权为© ${commitRef} <a target="_blank" href="${github}">HE FUNG</a>所有，保留所有权利。`,
     },
     search,
     outline: {
@@ -61,9 +54,9 @@ export default defineConfig({
   lastUpdated: true,
   metaChunk: true,
   markdown: {
+    theme: 'github-dark',
     //行号显示
     lineNumbers: true,
-
     // 开启图片懒加载
     image: {
       lazyLoading: true

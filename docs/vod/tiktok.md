@@ -1,34 +1,32 @@
 ---
- layout: page
+layout: page
 ---
+
 <section id="main">
-	<video :src="state.src" id="player" ref="vidRef" @click="togglePlay" controls webkit-playsinline playsinline autoplay x-webkit-airplay='true' x5-video-player-type='h5' x5-video-player-fullscreen='true' x5-video-ignore-metadata='true' controlslist="nodownload"></video>
+	<video :src="state.src" id="player" ref="vidRef" @ended="videoEnded" controls webkit-playsinline playsinline autoplay></video>
 	<svg width="512" height="512" viewBox="0 0 512 512" @click="togglePlay" v-show="!state.playing">
 		<path d="M152.443 136.417l207.114 119.573-207.114 119.593z" fill="#fff" />
 	</svg>
 </section>
 <section id="buttons" style="text-align: center;">
-	<button id="next" @click="next">播放下一个</button>
-	<a href="/"><button id="next">更多福利</button></a>
+  <button id="switch" @click="switchs" >{{ state.message }}</button>
+	<button id="next" @click="next">下个视频</button>
+	<a href="/about/support"><button id="next">赞助打赏</button></a>
 </section>
 
-
 <script lang="ts" setup>
-	
 	import { ref, reactive } from "vue";
 	
-	const vidRef = ref(null);
+	const vidRef = ref<boolean>(false);
 	const state = reactive({
 		playing: false,
-		number:0,
-		src:"https://cdntube2.b-cdn.net/mp4/ecbe0b502b545b0b67fcb0dcd9631d6c532b10dd.mp4"
+		message:"连续: 开",
+		auto:true,
+		src:"https://www.cunshao.com/666666/api/pc.php"
 	});
-	const next = async () =>{
-		const result = await fetch('https://fastly.jsdelivr.net/gh/cnly1987/cdn@master/tiktok.json')
-		const json = await result.json()
-		vidRef.value.src=json[state.number++];
-		vidRef.value.play();
-	};
+	const next =() =>{
+		vidRef.value.src= 'https://www.cunshao.com/666666/api/pc.php'
+	};  
 	const play = () => {
 		vidRef.value.play();
 		state.playing = true;
@@ -39,6 +37,11 @@
 		state.playing = false;
 	};
 
+	const videoEnded = () => {
+		if (state.auto){
+      next();
+		} 
+	}
 	const togglePlay = () => {
 		if (state.playing) {
 			pause();
@@ -46,6 +49,13 @@
 			play();
 		}
 	}
+	const switchs =  () =>{
+    state.auto = !state.auto;
+    state.message= '连续: ' + (state.auto ? '开' : '关');
+  }
+	const fix =  (num, length) =>{
+   return ('' + num).length < length ? ((new Array(length + 1)).join('0') + num).slice(-length) : '' + num;
+ }
 
 </script>
 
@@ -59,13 +69,16 @@
 	}
 	
 	body {
-		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+		background: #000;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 	}
 	#main {
-		height: calc(100vh - 165px);
+		height: calc(100vh - 170px);
 		display: flex;
 		justify-content: center;
 		align-items: center;

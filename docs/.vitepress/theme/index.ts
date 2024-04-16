@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import './style/index.scss'
+import { ref } from 'vue'
 
 import Video from "./components/Video.vue"
 import SvgImage from "./components/SvgImage.vue"
@@ -15,6 +16,11 @@ import mediumZoom from 'medium-zoom'
 import { onMounted, watch, nextTick } from 'vue'
 
 import giscusTalk from 'vitepress-plugin-comment-with-giscus'
+const inBrowser = typeof window !== 'undefined'
+const get = (key: string, defaultValue = false): boolean =>
+  inBrowser
+    ? JSON.parse(localStorage.getItem(key) || String(defaultValue))
+    : defaultValue
 
 export default {
   extends: DefaultTheme,
@@ -31,6 +37,9 @@ export default {
     return h(DefaultTheme.Layout, props)
   },
   enhanceApp({ app }) {
+    app.provide('og_title', ref(get('VIPTV资源库', true)))
+    app.provide('og_url', ref(get('https://viptv.work', true)))
+    app.provide('og_description', ref(get('开源百宝箱 - 简单, 强大, 快速, 无广告', true)))
     // 注册全局组件
     app.component('Video', Video)
     app.component("SvgImage", SvgImage);
@@ -56,20 +65,19 @@ export default {
 
     // giscus配置
     giscusTalk({
-      repo: 'viptvx/viptv', //仓库
-      repoId: 'R_kgDOGYFl1A', //仓库ID
-      category: 'Announcements', // 讨论分类
-      categoryId: 'DIC_kwDOGYFl1M4CayLM', //讨论分类ID
+      repo: 'viptvx/viptv.work', //仓库
+      repoId: 'R_kgDOKdyFzg', //仓库ID
+      category: 'Q&A', // 讨论分类
+      categoryId: 'DIC_kwDOKdyFzs4CeLSD', //讨论分类ID
       mapping: 'pathname',
       inputPosition: 'bottom',
+      loading: "lazy",
+      position: "top",
       lang: 'zh-CN',
     },
       {
         frontmatter, route
       },
-      //默认值为true，表示已启用，此参数可以忽略；
-      //如果为false，则表示未启用
-      //您可以使用“comment:true”序言在页面上单独启用它
       true
     );
 

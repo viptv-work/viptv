@@ -1,48 +1,46 @@
 ---
-layout: page
+ layout: page
 ---
-
 <section id="main">
-	<video :src="state.src" id="player" ref="vidRef" @ended="videoEnded" controls webkit-playsinline playsinline autoplay></video>
+	<video :src="video" id="player" ref="vidRef" @click="togglePlay" controls webkit-playsinline playsinline autoplay x-webkit-airplay='true' x5-video-player-type='h5' x5-video-player-fullscreen='true' x5-video-ignore-metadata='true' controlslist="nodownload"></video>
 	<svg width="512" height="512" viewBox="0 0 512 512" @click="togglePlay" v-show="!state.playing">
 		<path d="M152.443 136.417l207.114 119.573-207.114 119.593z" fill="#fff" />
 	</svg>
 </section>
 <section id="buttons" style="text-align: center;">
-  <button id="switch" @click="switchs" >{{ state.message }}</button>
-	<button id="next" @click="next">下个视频</button>
-	<a href="/about/support"><button id="next">赞助打赏</button></a>
+  <button id="switch">连播: 开</button>
+	<button id="next" @click="next">换下一个</button>
+	<a href="/about/support"><button id="next">赞助我们</button></a>
 </section>
 
-<script lang="ts" setup>
-	import { ref, reactive } from "vue";
-	
-	const vidRef = ref<boolean>(false);
+
+<script lang="ts" setup>	
+	import { defineComponent, ref, reactive } from "vue";
+	const video = ref('https://jiejie.uk/xjj/get/get1.php');
+	const vidRef = ref(null);
+
 	const state = reactive({
-		playing: false,
-		message:"连续: 开",
-		auto:true,
-		number:3,
-		src:"https://v.nrzj.vip/video.php"
+		playing: true,
 	});
-	const next =() =>{
-		vidRef.value.src= 'https://v.nrzj.vip/video.php?_t=' + Math.random()
-	};  
+ 	const switch = () =>{
+		state.playing = !state.playing;
+    this.innerText = '连续: ' + (auto ? '开' : '关');
+
+	};
 	const play = () => {
 		vidRef.value.play();
 		state.playing = true;
 	};
-
+  const next = () =>{
+		vidRef.value.src='https://jiejie.uk/xjj/get/get1.php'
+	};
 	const pause = () => {
 		vidRef.value.pause();
 		state.playing = false;
 	};
-
-	const videoEnded = () => {
-		if (state.auto){
-      next();
-		} 
-	}
+  bind(player, 'ended', function () {
+     if (auto) randomm();
+  });
 	const togglePlay = () => {
 		if (state.playing) {
 			pause();
@@ -50,14 +48,7 @@ layout: page
 			play();
 		}
 	}
-	const switchs =  () =>{
-    state.auto = !state.auto;
-    state.message= '连续: ' + (state.auto ? '开' : '关');
-  }
-	const fix =  (num, length) =>{
-   return ('' + num).length < length ? ((new Array(length + 1)).join('0') + num).slice(-length) : '' + num;
- }
-
+	
 </script>
 
 <style scoped>
@@ -70,16 +61,13 @@ layout: page
 	}
 	
 	body {
-		background: #000;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 	#main {
-		height: calc(100vh - 170px);
+		height: calc(100vh - 165px);
 		display: flex;
 		justify-content: center;
 		align-items: center;

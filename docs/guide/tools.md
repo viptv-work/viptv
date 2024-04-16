@@ -15,7 +15,7 @@
 
 只需将以下链接之一插入任何支持实时流式传输的视频播放器，然后按打开即可。
 
-## 📺 播放列表
+## 播放列表
 
 播放列表的多个版本在分组方式上有所不同。
 
@@ -86,7 +86,7 @@
   </tbody>
 </table>
 
-## 🛠️ 工具
+## 工具
 
 - ⚡️ RAW 加速
 <table>
@@ -112,7 +112,7 @@
   </tbody>
 </table>
 
-- 📆EPG 接口地址：
+## 节目单
   - http://vodtv.cn/iptv/EPG.xml
   - https://cdn.jsdelivr.net/gh/vodtv/iptv/EPG.xml
   - https://cdn.gitmirror.com/gh/vodtv/iptv/main/EPG.xml

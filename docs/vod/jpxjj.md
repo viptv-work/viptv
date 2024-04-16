@@ -1,30 +1,32 @@
 ---
- layout: page
+layout: page
 ---
 <section id="main">
-	<video :src="video" id="player" ref="vidRef" @click="togglePlay" controls webkit-playsinline playsinline autoplay x-webkit-airplay='true' x5-video-player-type='h5' x5-video-player-fullscreen='true' x5-video-ignore-metadata='true' controlslist="nodownload"></video>
+	<video :src="video" id="player" ref="vidRef" @click="togglePlay" controls webkit-playsinline playsinline autoplay
+		x-webkit-airplay='true' x5-video-player-type='h5' x5-video-player-fullscreen='true' x5-video-ignore-metadata='true'
+		controlslist="nodownload"></video>
 	<svg width="512" height="512" viewBox="0 0 512 512" @click="togglePlay" v-show="!state.playing">
 		<path d="M152.443 136.417l207.114 119.573-207.114 119.593z" fill="#fff" />
 	</svg>
 </section>
 <section id="buttons" style="text-align: center;">
-	<button id="next" @click="next">播放下一个</button>
-	<a href="/"><button id="next">更多福利</button></a>
+	<button id="next" @click="next">换下一个</button>
+	<a href="/about/support"><button id="next">赞助我们</button></a>
 </section>
 
 
 <script lang="ts" setup>
-	
+
 	import { defineComponent, ref, reactive } from "vue";
-	const video = ref('https://v.nrzj.vip/video.php');
+	const video = ref('https://cdn1.hongtaocdn3.com/video/m3u8/202312/15/25a80a012cfe/25a80a012cfe.mp4');
 	const vidRef = ref(null);
 
 	const state = reactive({
 		playing: false,
 	});
 
-	const next = () =>{
-		vidRef.value.src='https://v.nrzj.vip/video.php';
+	const next = () => {
+		vidRef.value.src = 'https://cdn1.hongtaocdn3.com/video/m3u8/202312/15/25a80a012cfe/25a80a012cfe.mp4';
 		vidRef.value.play();
 	};
 	const play = () => {
@@ -44,7 +46,7 @@
 			play();
 		}
 	}
-	
+
 </script>
 
 <style scoped>
@@ -55,13 +57,14 @@
 		outline: none;
 		box-sizing: border-box;
 	}
-	
+
 	body {
 		overflow: hidden;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
+
 	#main {
 		height: calc(100vh - 165px);
 		display: flex;

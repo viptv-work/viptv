@@ -19,23 +19,7 @@ const SidebarNav: DefaultTheme.SidebarItem[] = [
   },
 ];
 const SidebarGuide: DefaultTheme.SidebarItem[] = [
-  {
-    text: "介绍",
-    items: [
-      {
-        text: "为什么选择VIPTV?",
-        link: "/guide/why",
-      },
-      {
-        text: "长期支持",
-        link: "/guide/support",
-      },
-      {
-        text: "赞助支持",
-        link: "/guide/sponsors",
-      },
-    ]
-  },
+
   {
     text: "快速开始",
     items: [
@@ -50,6 +34,33 @@ const SidebarGuide: DefaultTheme.SidebarItem[] = [
     ],
   },
 
+
+];
+
+const SidebarAbout: DefaultTheme.SidebarItem[] = [
+
+  {
+    text: "介绍我们",
+    items: [
+
+      {
+        text: "为什么选择VIPTV?",
+        link: "/about/why",
+      },
+      {
+        text: "关于我",
+        link: "/about/me",
+      },
+      {
+        text: "赞助支持",
+        link: "/about/support",
+      },
+      {
+        text: "我们团队",
+        link: "/about/team",
+      },
+    ]
+  },
 ];
 
 const SidebarSource: DefaultTheme.SidebarItem[] = [
@@ -161,19 +172,59 @@ const Sidebartools: DefaultTheme.SidebarItem[] = [
 ];
 const SidebarVod: DefaultTheme.SidebarItem[] = [
   {
-    text: "视频类",
+    text: "国内美女",
     items: [
       {
-        text: "国内小姐姐",
+        text: "大尺码类",
+        link: "/vod/cnxjj",
+      },
+      {
+        text: "妹子视频",
+        link: "/vod/mzsp",
+      },
+      {
+        text: "甜妹视频",
+        link: "/vod/tm",
+      },
+      {
+        text: "纯情女高",
+        link: "/vod/ng",
+      },
+      {
+        text: "美女穿搭",
+        link: "/vod/cd",
+      },
+      {
+        text: "清纯美女",
+        link: "/vod/qc",
+      },
+      {
+        text: "美女吊带",
+        link: "/vod/dd",
+      },
+      {
+        text: "少萝妹妹",
+        link: "/vod/sl",
+      },
+      {
+        text: "美女穿搭",
+        link: "/vod/jk",
+      },
+      {
+        text: "美腿玉足",
+        link: "/vod/yz",
+      },
+      {
+        text: "热舞系列",
+        link: "/vod/rewu",
+      },
+      {
+        text: "小姐姐类",
         link: "/vod/xjj",
       },
       {
-        text: "国外小姐姐",
-        link: "/vod/tiktok",
-      },
-      {
-        text: "18+禁",
-        link: "/vod/xxx",
+        text: "女大学生",
+        link: "/vod/nvda",
       }
     ],
   },
@@ -181,20 +232,14 @@ const SidebarVod: DefaultTheme.SidebarItem[] = [
   {
     text: "影视剧",
     items: [
-      {
-        text: "国内小姐姐",
-        link: "/xjj",
-      },
-      {
-        text: "国外小姐姐",
-        link: "/tiktok",
-      }
+
     ],
   },
 ];
 
 export const sidebar: DefaultTheme.Config["sidebar"] = {
   "/guide/": SidebarGuide,
+  "/about/": SidebarAbout,
   "/source/": SidebarSource,
   "/nav/": SidebarNav,
   "/vod/": SidebarVod,
