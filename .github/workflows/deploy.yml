@@ -29,7 +29,7 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       with:
-        personal_token: ${{ secrets.DEPLOY_SECRET }}
+        personal_token: ${{ secrets.ACTION_TOKEN }}
         external_repository: viptv-work/viptv-work.github.io
         publish_dir: ./dist
         publish_branch: master
