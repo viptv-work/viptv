@@ -1,35 +1,31 @@
-﻿name: Build and Deploy
+name: Deploy VIPTV site to Pages
 on:  
   push:
-    branches: [main]
   workflow_dispatch:
 jobs:
-  build-and-deploy:
+  deploy-and-sync:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [20.x]
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4   
-      with:
-        node-version: ${{ matrix.node-version }}
+      - name: Checkout 
+        uses: actions/checkout@v4
+        with:
+          ref: 'main'
 
-    - name: Install pnpm
-      uses: pnpm/action-setup@v2
-      with:
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
           version: 8
           run_install: false  
 
-    - name:  Install and Build
-      run: |   
-        pnpm install
-        pnpm build
+      - name:  Install and Build
+        run: |   
+          pnpm install
+          pnpm build
     
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        personal_token: ${{ secrets.ACTION_TOKEN }}
-        external_repository: viptv-work/viptv-work.github.io
-        publish_dir: ./dist
-        publish_branch: master
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.DEPLOY_SECRET }}
+          external_repository: viptv-work/viptv-work.github.io
+          publish_dir: ./dist
+          publish_branch: master
